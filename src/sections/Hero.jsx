@@ -70,7 +70,7 @@ export default function Hero() {
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.8 }}
           className="flex flex-wrap justify-center gap-4 mb-10">
           <a href="#projects" className="btn-blue flex items-center gap-2">View Projects <FiArrowRight /></a>
-          <a href="#" className="btn-outline flex items-center gap-2"><FiDownload /> Download Resume</a>
+          <a href="https://drive.google.com/file/d/1QHN-7w25mQsYxcWXWoNSLDBkpJve9TQH/view" target="_blank" rel="noreferrer" className="btn-outline flex items-center gap-2"><FiDownload /> Download Resume</a>
         </motion.div>
 
         {/* Social */}
